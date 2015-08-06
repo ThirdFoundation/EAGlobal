@@ -31,21 +31,23 @@ eaMediaApp.controller('DisplayController', ['$scope', '$http', '$routeParams', f
       $scope.talks = data.slice(1);
     });
     $scope.styles = [
-      {'text': 'Talks', 'state': false},
-      {'text': 'Panels', 'state': false},
-      {'text': 'Workshops', 'state': false},
-      {'text': 'Q & A', 'state': false}
+      {'text': 'Lectures/Talks', 'tag': 'lecture', 'state': false},
+      {'text': 'Panels', 'tag': 'panel', 'state': false},
+      {'text': 'Workshops', 'tag': 'workshop', 'state': false},
+      {'text': 'Q & A', 'tag': 'q&a', 'state': false},
+      {'text': 'Show All', 'tag': '', 'state': false}
     ];
     $scope.causes = [
-      {'text': 'Strategy', 'state': false},
-      {'text': 'Technology', 'state': false},
-      {'text': 'Education', 'state': false},
-      {'text': 'Animal Suffering', 'state': false},
-      {'text': 'Quality of Life', 'state': false},
-      {'text': 'Existential Risk', 'state': false}
+      {'text': 'Strategy', 'tag': 'strategy', 'state': false},
+      {'text': 'Technology', 'tag': 'tech', 'state': false},
+      {'text': 'Education', 'tag': 'education', 'state': false},
+      {'text': 'Animal Suffering', 'tag': 'animals', 'state': false},
+      {'text': 'Quality of Life', 'tag': 'suffering', 'state': false},
+      {'text': 'Existential Risk', 'tag': 'exrisk', 'state': false}
     ];
     $scope.toggle = function() {
       this.button.state = !this.button.state;
+      $scope.filterBy = this.button.tag;
     }
 }]);
 

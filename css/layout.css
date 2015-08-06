@@ -46,6 +46,15 @@ iframe {
 	margin-left: auto;
 	margin-right: auto;
 }
+.alone {
+	display: block;
+}
+.top {
+	vertical-align: top;
+}
+.bottom {
+	position: absolute;
+}
 #divider {
 	margin: 40px 0px 40px 0px;
 }
@@ -61,7 +70,7 @@ iframe {
 #talk_box {
 	width: 1080px;
 	min-height: 100vh;
-	margin: 50px auto 10px auto;
+	margin: 0px auto 0px auto;
 }
 .talk_holder {
 	width: 320px;
@@ -88,4 +97,23 @@ iframe {
 #first_vid {
 	display: block;
 	margin: 0px auto 20px auto;
+}
+#all_buttons {
+	display: inline-block;
+}
+.button_holder {
+	display: block;
+}
+#controls {
+	margin: 40px 0px 0px 0px;
+}
+.control_containers {
+	height: 70px;
+	display: block;
+	overflow: auto;
+}
+.control_label {
+	width: 80px;
+	margin: 0px 5px 0px 0px;
+	vertical-align: top;
 }

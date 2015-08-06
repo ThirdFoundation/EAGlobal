@@ -1,27 +1,42 @@
 <img id="divider" src="img/divider.png">
-
 <div id="first_vid" class="talk_holder animated fadeIn">
 	<span class="talk r_bold medium blue">{{first.title}}</span>
 	<span class="speaker r_light tiny white">{{first.speakers[0]}}</span>
 	<a ng-href="#{{display}}/{{first.url}}"><img class="play_button" src="img/play.png"></a>
 </div>
-
-<span class="r_med small white">Show only:</span>
-<div id="button_holder">
-	<button ng-repeat="button in styles"
-					ng-click="toggle()"
-					ng-class="{button: true, pressed: button.state}">{{button.text}}</button>
+<div id="controls">
+	<div class="control_containers">
+		<span class="r_med small white control_label">Keyword:</span>
+		<div id="all_buttons">
+			<div class="button_holder">
+				<button ng-repeat="button in causes"
+								ng-click="toggle()"
+								ng-model="filter.causes"
+								ng-class="{button:  true,
+													 r_light: true,
+													 small:		true,
+													 white:		true,
+													 pressed: button.tag === filterBy}">{{button.text}}</button>
+			</div>
+			<div class="button_holder">
+				<button ng-repeat="button in styles"
+								ng-click="toggle()"
+								ng-model="filter.type"
+								ng-class="{button:  true,
+													 r_light: true,
+													 small:		true,
+													 white:		true,
+													 pressed: button.tag === filterBy}">{{button.text}}</button>
+			</div>
+		</div>
+	</div>
+	<div class="control_containers">
+		<span class="r_med small white control_label">Speaker:</span>
+		<input id="speaker_search_box"
+					 class="r_light small white"
+					 ng-model="filter.speakers">
+	</div>
 </div>
-
-<div id="button_holder">
-	<button ng-repeat="button in causes"
-					ng-click="toggle()"
-					ng-class="{button: true, pressed: button.state}">{{button.text}}</button>
-</div>
-
-<span class="r_med small white">Speaker(s):</span>
-<input id="speaker_search_box" class="r_light small white" ng-model="filter.speakers">
-<span class="r_light small white">{{speaker}}</span>
 
 <section id="talk_box">
 	<div ng-class="{talk_holder:	true,
@@ -36,7 +51,7 @@
 									fadeInWait7:	$index === 17 || $index === 19 || $index === 21,
 									fadeInWait8:	$index === 20 || $index === 22 || $index === 24,
 									fadeInWait9:	$index === 23 || $index > 24}"
-			 ng-repeat="talk in talks | filter:filter">
+			 ng-repeat="talk in talks | filter:filter | filter:filterBy">
 		<span ng-class="{talk:		true,
 										 r_bold:	true,
 										 medium:	true,
