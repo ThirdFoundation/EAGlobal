@@ -2,7 +2,6 @@
 	{
 		"title": "Opening Keynote",
 		"url": "open",
-		"descrip": "",
 		"category": "big",
 		"type": "lecture",
 		"causes": [],
@@ -12,7 +11,6 @@
 	{
 		"title": "— Big Picture —",
 		"url": "bigpicture",
-		"descrip": "",
 		"category": "big",
 		"type": "lecture",
 		"causes": [],
@@ -22,7 +20,6 @@
 	{
 		"title": "— What EAs Can Do —",
 		"url": "action",
-		"descrip": "",
 		"category": "do",
 		"type": "lecture",
 		"causes": ["strategy"],
@@ -32,7 +29,6 @@
 	{
 		"title": "— The Future of EA —",
 		"url": "future",
-		"descrip": "",
 		"category": "future",
 		"type": "lecture",
 		"causes": [],
@@ -42,7 +38,6 @@
 	{
 		"title": "Meta EA Global",
 		"url": "meta",
-		"descrip": "",
 		"category": "do",
 		"type": "lecture",
 		"causes": ["strategy"],
@@ -52,7 +47,6 @@
 	{
 		"title": "Astronomical Stakes",
 		"url": "stakes",
-		"descrip": "",
 		"category": "big",
 		"type": "lecture",
 		"causes": [],
@@ -62,7 +56,6 @@
 	{
 		"title": "Networking",
 		"url": "networking",
-		"descrip": "",
 		"category": "do",
 		"type": "workshop",
 		"causes": [],
@@ -72,7 +65,6 @@
 	{
 		"title": "Funding Models",
 		"url": "funding",
-		"descrip": "",
 		"category": "future",
 		"type": "panel",
 		"causes": [],
@@ -82,7 +74,6 @@
 	{
 		"title": "EA Org Updates",
 		"url": "updates1",
-		"descrip": "",
 		"category": "big",
 		"type": "lightning",
 		"causes": ["tech", "exrisk", "suffering", "education"],
@@ -92,7 +83,6 @@
 	{
 		"title": "Superintelligence",
 		"url": "superintelligence",
-		"descrip": "",
 		"category": "big",
 		"type": "panel",
 		"causes": ["tech", "exrisk"],
@@ -102,7 +92,6 @@
 	{
 		"title": "Rationality, pt.1",
 		"url": "rationality1",
-		"descrip": "",
 		"category": "big",
 		"type": "lecture",
 		"causes": ["education"],
@@ -112,7 +101,6 @@
 	{
 		"title": "Rationality, pt.2",
 		"url": "rationality2",
-		"descrip": "",
 		"category": "big",
 		"type": "lecture",
 		"causes": ["education"],
@@ -122,7 +110,6 @@
 	{
 		"title": "Rationality, pt.3",
 		"url": "rationality3",
-		"descrip": "",
 		"category": "big",
 		"type": "lecture",
 		"causes": ["education"],
@@ -132,7 +119,6 @@
 	{
 		"title": "Altruistic Entrepreneurship, pt.1",
 		"url": "entrepreneurship1",
-		"descrip": "",
 		"category": "do",
 		"type": "lecture",
 		"causes": ["strategy"],
@@ -142,7 +128,6 @@
 	{
 		"title": "Altruistic Entrepreneurship, pt.2",
 		"url": "entrepreneurship2",
-		"descrip": "",
 		"category": "do",
 		"type": "lecture",
 		"causes": ["strategy"],
@@ -152,7 +137,6 @@
 	{
 		"title": "Altruistic Entrepreneurship, pt.3",
 		"url": "entrepreneurship3",
-		"descrip": "",
 		"category": "do",
 		"type": "lecture",
 		"causes": ["strategy"],
@@ -162,7 +146,6 @@
 	{
 		"title": "Effective Altruism and the Media",
 		"url": "media",
-		"descrip": "",
 		"category": "future",
 		"type": "panel",
 		"causes": [],
@@ -172,7 +155,6 @@
 	{
 		"title": "The Future of Philanthropy",
 		"url": "philanthropy",
-		"descrip": "",
 		"category": "big",
 		"type": "lecture",
 		"causes": [],
@@ -182,7 +164,6 @@
 	{
 		"title": "Communicating Complex Concepts",
 		"url": "complexideas",
-		"descrip": "",
 		"category": "do",
 		"type": "panel",
 		"causes": ["education"],
@@ -192,7 +173,6 @@
 	{
 		"title": "Global Poverty, pt.1",
 		"url": "poverty1",
-		"descrip": "",
 		"category": "big",
 		"type": "lecture",
 		"causes": ["suffering"],
@@ -202,7 +182,6 @@
 	{
 		"title": "Global Poverty, pt.2",
 		"url": "poverty2",
-		"descrip": "",
 		"category": "big",
 		"type": "lecture",
 		"causes": ["suffering"],
@@ -212,7 +191,6 @@
 	{
 		"title": "Global Poverty, pt.3",
 		"url": "poverty3",
-		"descrip": "",
 		"category": "big",
 		"type": "lecture",
 		"causes": ["suffering"],
@@ -222,7 +200,6 @@
 	{
 		"title": "Animal Advocacy, pt.1",
 		"url": "animal1",
-		"descrip": "",
 		"category": "big",
 		"type": "lecture",
 		"causes": ["animals"],
@@ -232,7 +209,6 @@
 	{
 		"title": "Animal Advocacy, pt.2",
 		"url": "animal2",
-		"descrip": "",
 		"category": "big",
 		"type": "lecture",
 		"causes": ["animals"],
@@ -242,7 +218,6 @@
 	{
 		"title": "Animal Advocacy, pt.3",
 		"url": "animal3",
-		"descrip": "",
 		"category": "big",
 		"type": "lecture",
 		"causes": ["animals"],
@@ -252,7 +227,6 @@
 	{
 		"title": "EA Org Updates, pt.2",
 		"url": "updates2",
-		"descrip": "",
 		"category": "big",
 		"type": "lightning",
 		"causes": ["tech", "exrisk", "suffering", "education", "animals"],
@@ -262,7 +236,6 @@
 	{
 		"title": "Life as an EA",
 		"url": "beingea",
-		"descrip": "",
 		"category": "do",
 		"type": "q&a",
 		"causes": [],
@@ -272,7 +245,6 @@
 	{
 		"title": "Community Talks",
 		"url": "anecdotes",
-		"descrip": "",
 		"category": "future",
 		"type": "lightning",
 		"causes": [],
@@ -282,7 +254,6 @@
 	{
 		"title": "Policy Change, pt.1",
 		"url": "policy1",
-		"descrip": "",
 		"category": "future",
 		"type": "lecture",
 		"causes": ["strategy"],
@@ -292,7 +263,6 @@
 	{
 		"title": "Policy Change, pt.2",
 		"url": "policy2",
-		"descrip": "",
 		"category": "future",
 		"type": "lecture",
 		"causes": ["strategy"],
@@ -302,7 +272,6 @@
 	{
 		"title": "Policy Change, pt.3",
 		"url": "policy3",
-		"descrip": "",
 		"category": "future",
 		"type": "lecture",
 		"causes": ["strategy"],
@@ -312,7 +281,6 @@
 	{
 		"title": "Prioritization Research, pt.1",
 		"url": "priorities1",
-		"descrip": "",
 		"category": "big",
 		"type": "lecture",
 		"causes": ["strategy"],
@@ -322,7 +290,6 @@
 	{
 		"title": "Prioritization Research, pt.2",
 		"url": "priorities2",
-		"descrip": "",
 		"category": "big",
 		"type": "lecture",
 		"causes": ["strategy"],
@@ -332,7 +299,6 @@
 	{
 		"title": "Prioritization Research, pt.3",
 		"url": "priorities3",
-		"descrip": "",
 		"category": "big",
 		"type": "lecture",
 		"causes": ["strategy"],
@@ -342,7 +308,6 @@
 	{
 		"title": "Navigating Intellectual Disagreement",
 		"url": "debate",
-		"descrip": "",
 		"category": "do",
 		"type": "workshop",
 		"causes": [],
@@ -352,7 +317,6 @@
 	{
 		"title": "The Nature of Altruism, pt.1",
 		"url": "altruism1",
-		"descrip": "",
 		"category": "big",
 		"type": "lecture",
 		"causes": [],
@@ -362,7 +326,6 @@
 	{
 		"title": "The Nature of Altruism, pt.2",
 		"url": "altruism2",
-		"descrip": "",
 		"category": "big",
 		"type": "lecture",
 		"causes": [],
@@ -372,7 +335,6 @@
 	{
 		"title": "Making a Difference in Existential Risk",
 		"url": "exrisk",
-		"descrip": "",
 		"category": "do",
 		"type": "workshop",
 		"causes": ["exrisk", "strategy"],
@@ -382,7 +344,6 @@
 	{
 		"title": "Effective Altruists and Community, pt.1",
 		"url": "community1",
-		"descrip": "",
 		"category": "do",
 		"type": "lecture",
 		"causes": [],
@@ -392,7 +353,6 @@
 	{
 		"title": "Effective Altruists and Community, pt.2",
 		"url": "community2",
-		"descrip": "",
 		"category": "do",
 		"type": "lecture",
 		"causes": [],
@@ -402,7 +362,6 @@
 	{
 		"title": "Biology and Technology, pt.1",
 		"url": "biotech1",
-		"descrip": "",
 		"category": "future",
 		"type": "lecture",
 		"causes": ["tech"],
@@ -412,7 +371,6 @@
 	{
 		"title": "Biology and Technology, pt.2",
 		"url": "biotech2",
-		"descrip": "",
 		"category": "future",
 		"type": "lecture",
 		"causes": ["tech"],
@@ -422,7 +380,6 @@
 	{
 		"title": "Biology and Technology, pt.3",
 		"url": "biotech3",
-		"descrip": "",
 		"category": "future",
 		"type": "lecture",
 		"causes": ["tech"],
@@ -432,7 +389,6 @@
 	{
 		"title": "Giving Game",
 		"url": "giving",
-		"descrip": "",
 		"category": "do",
 		"type": "workshop",
 		"causes": [],
@@ -442,7 +398,6 @@
 	{
 		"title": "Philanthropic Choices",
 		"url": "choices",
-		"descrip": "",
 		"category": "do",
 		"type": "q&a",
 		"causes": [],
@@ -452,7 +407,6 @@
 	{
 		"title": "EA Career Mistakes",
 		"url": "careermistakes",
-		"descrip": "",
 		"category": "do",
 		"type": "workshop",
 		"causes": ["strategy"],
@@ -462,7 +416,6 @@
 	{
 		"title": "Movement Development, pt.1",
 		"url": "movement1",
-		"descrip": "",
 		"category": "future",
 		"type": "lecture",
 		"causes": ["strategy"],
@@ -472,7 +425,6 @@
 	{
 		"title": "Movement Development, pt.2",
 		"url": "movement2",
-		"descrip": "",
 		"category": "future",
 		"type": "lecture",
 		"causes": ["strategy"],
@@ -482,7 +434,6 @@
 	{
 		"title": "Movement Development, pt.3",
 		"url": "movement3",
-		"descrip": "",
 		"category": "future",
 		"type": "lecture",
 		"causes": ["strategy"],
@@ -492,7 +443,6 @@
 	{
 		"title": "Running a Chapter",
 		"url": "leadership",
-		"descrip": "",
 		"category": "do",
 		"type": "panel",
 		"causes": [],
@@ -502,7 +452,6 @@
 	{
 		"title": "State of the EA Union",
 		"url": "closing",
-		"descrip": "",
 		"category": "future",
 		"type": "lecture",
 		"causes": [],
