@@ -1,0 +1,97 @@
+
+/*----------------------------------------------------------------------*/
+/*-----------------------------Text styling-----------------------------*/
+a {
+	text-decoration: none;
+}
+.white {
+	color: white;
+}
+.blue {
+	color: #1BCFE0;
+}
+.red {
+	color: #FF8080;
+}
+.green {
+	color: #87DE87;
+}
+.gray {
+	color: #A8A8A8;
+}
+.dark {
+	opacity: .5;
+}
+.tiny {
+	font-size: 10pt;
+}
+.small {
+	font-size: 12pt;
+}
+.medium {
+	font-size: 16pt;
+}
+.large {
+	font-size: 22pt;
+}
+.huge {
+	font-size: 30pt;
+}
+.roboto {
+	font-family: 'Roboto Slab'; serif;
+	text-shadow: 1px 1px 3px black;
+}
+.mont {
+	font-family: 'Montserrat'; sans-serif;
+	text-shadow: 2px 2px 4px black;
+}
+.r_light {
+	font-family: 'Raleway'; sans-serif;
+	font-weight: 400;
+	letter-spacing: .5px;
+	text-shadow: 1px 1px 3px black;
+}
+.r_med {
+	font-family: 'Raleway'; sans-serif;
+	font-weight: 500;
+	letter-spacing: .75px;
+	text-shadow: 2px 2px 4px black;
+}
+.r_bold {
+	font-family: 'Raleway'; sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-shadow: 3px 3px 5px black;
+}
+.r_ital {
+	font-family: 'Raleway'; sans-serif;
+	font-weight: 400;
+	font-size: 12pt;
+	font-style: italic;
+	letter-spacing: .5px;
+	text-shadow: 1px 1px 3px black;
+}
+
+.montserrat {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 25pt;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+}
+
+#speaker_search_box {
+	background: none;
+	border: 1px solid white;
+	transition: box-shadow 0.3s, border 0.3s;
+}
+#speaker_search_box:focus {
+	box-shadow: 0 0 5px 1px #969696;
+}
+
+.button {
+
+}
+.pressed {
+	background-color: red;
+}

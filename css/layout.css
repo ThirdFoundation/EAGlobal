@@ -1,0 +1,91 @@
+body {
+	background-image: url("../img/earthDark.png");
+	background-size: 100%;
+}
+iframe {
+	display: block;
+	margin: 30px auto 50px auto;
+}
+#canvas {
+	width: 1080px;
+	min-height: 1100px;
+	margin-right: auto;
+	margin-left:auto;
+	padding-bottom: 50px;
+}
+#logo {
+	width: 75px;
+	display: block;
+	margin: 30px auto 10px auto;
+}
+#headline {
+	width: 360px;
+	display: block;
+	margin: 0px auto 0px auto;
+}
+#headquote {
+	width: 800px;
+	display: block;
+	margin: 10px auto 20px auto;
+}
+#event_links {
+	width: 900px;
+	display: table;
+	margin: 10px auto 10px auto;
+}
+.event_holder {
+	display: table-cell;
+	width: 200px;
+	text-align: center;
+}
+.event_holder span {
+	display: block;
+}
+.center {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+#divider {
+	margin: 40px 0px 40px 0px;
+}
+#sponsors {
+	width: 637px;
+	display: block;
+	margin: 10px auto 30px auto;
+}
+#fine_print {
+	width: 840px;
+	display: block;
+}
+#talk_box {
+	width: 1080px;
+	min-height: 100vh;
+	margin: 50px auto 10px auto;
+}
+.talk_holder {
+	width: 320px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	margin: 15px 20px 15px 20px;
+	overflow: auto;
+}
+.talk {
+	width: 320px;
+	padding: 0px 31px 0px 30px;
+	display: table-cell;
+	vertical-align: bottom;
+}
+.speaker {
+	display: block;
+}
+.play_button {
+	width: 30px;
+	height: 30px;
+	margin-top: 5px;
+}
+#first_vid {
+	display: block;
+	margin: 0px auto 20px auto;
+}

@@ -1,0 +1,512 @@
+[
+	{
+		"title": "Opening Keynote",
+		"url": "open",
+		"descrip": "",
+		"category": "big",
+		"type": "lecture",
+		"causes": [],
+		"speakers": ["Will MacAskill"],
+		"videoURL": ""
+	},
+	{
+		"title": "— Big Picture —",
+		"url": "bigpicture",
+		"descrip": "",
+		"category": "big",
+		"type": "lecture",
+		"causes": [],
+		"speakers": ["Rob Wiblin"],
+		"videoURL": ""
+	},
+	{
+		"title": "— What EAs Can Do —",
+		"url": "action",
+		"descrip": "",
+		"category": "do",
+		"type": "lecture",
+		"causes": ["strategy"],
+		"speakers": ["Ben Todd"],
+		"videoURL": ""
+	},
+	{
+		"title": "— The Future of EA —",
+		"url": "future",
+		"descrip": "",
+		"category": "future",
+		"type": "lecture",
+		"causes": [],
+		"speakers": ["Kerry Vaughan"],
+		"videoURL": ""
+	},
+	{
+		"title": "Meta EA Global",
+		"url": "meta",
+		"descrip": "",
+		"category": "do",
+		"type": "lecture",
+		"causes": ["strategy"],
+		"speakers": ["James Norris"],
+		"videoURL": ""
+	},
+	{
+		"title": "Astronomical Stakes",
+		"url": "stakes",
+		"descrip": "",
+		"category": "big",
+		"type": "lecture",
+		"causes": [],
+		"speakers": ["Nick Bostrom"],
+		"videoURL": ""
+	},
+	{
+		"title": "Networking",
+		"url": "networking",
+		"descrip": "",
+		"category": "do",
+		"type": "workshop",
+		"causes": [],
+		"speakers": ["Avary Kent"],
+		"videoURL": ""
+	},
+	{
+		"title": "Funding Models",
+		"url": "funding",
+		"descrip": "",
+		"category": "future",
+		"type": "panel",
+		"causes": [],
+		"speakers": ["Bryan Johnson", "Brigitte Gosselink", "Kerry Vaughan", "Jason Matheny", "Miguel Veiga-Pestana", "Zanoon Nissar", " ", "  "],
+		"videoURL": ""
+	},
+	{
+		"title": "EA Org Updates",
+		"url": "updates1",
+		"descrip": "",
+		"category": "big",
+		"type": "lightning",
+		"causes": ["tech", "exrisk", "suffering", "education"],
+		"speakers": ["GiveWell", "Open Philanthropy Project", "The Life You Can Save", "Machine Intelligence Research Institute", "Global Priorities Project", "GiveDirectly", "Giordano-Bruno-Stiftung", "Future of Humanity Institute"],
+		"videoURL": ""
+	},
+	{
+		"title": "Superintelligence",
+		"url": "superintelligence",
+		"descrip": "",
+		"category": "big",
+		"type": "panel",
+		"causes": ["tech", "exrisk"],
+		"speakers": ["Elon Musk", "Nate Soares", "Stuart Russell", "Nick Bostrom", "Daniel Dewey", " ", "  ", "   "],
+		"videoURL": ""
+	},
+	{
+		"title": "Rationality, pt.1",
+		"url": "rationality1",
+		"descrip": "",
+		"category": "big",
+		"type": "lecture",
+		"causes": ["education"],
+		"speakers": ["Matt Falshaw"],
+		"videoURL": ""
+	},
+	{
+		"title": "Rationality, pt.2",
+		"url": "rationality2",
+		"descrip": "",
+		"category": "big",
+		"type": "lecture",
+		"causes": ["education"],
+		"speakers": ["Ben Hoffman"],
+		"videoURL": ""
+	},
+	{
+		"title": "Rationality, pt.3",
+		"url": "rationality3",
+		"descrip": "",
+		"category": "big",
+		"type": "lecture",
+		"causes": ["education"],
+		"speakers": ["Anna Salamon"],
+		"videoURL": ""
+	},
+	{
+		"title": "Altruistic Entrepreneurship, pt.1",
+		"url": "entrepreneurship1",
+		"descrip": "",
+		"category": "do",
+		"type": "lecture",
+		"causes": ["strategy"],
+		"speakers": ["Spencer Greenberg"],
+		"videoURL": ""
+	},
+	{
+		"title": "Altruistic Entrepreneurship, pt.2",
+		"url": "entrepreneurship2",
+		"descrip": "",
+		"category": "do",
+		"type": "lecture",
+		"causes": ["strategy"],
+		"speakers": ["Jeff Brown"],
+		"videoURL": ""
+	},
+	{
+		"title": "Altruistic Entrepreneurship, pt.3",
+		"url": "entrepreneurship3",
+		"descrip": "",
+		"category": "do",
+		"type": "lecture",
+		"causes": ["strategy"],
+		"speakers": ["Liv Boeree"],
+		"videoURL": ""
+	},
+	{
+		"title": "Effective Altruism and the Media",
+		"url": "media",
+		"descrip": "",
+		"category": "future",
+		"type": "panel",
+		"causes": [],
+		"speakers": ["Nico Pitney", "Dylan Matthews", "Laura Gamse", "Rajesh Minchandani"],
+		"videoURL": ""
+	},
+	{
+		"title": "The Future of Philanthropy",
+		"url": "philanthropy",
+		"descrip": "",
+		"category": "big",
+		"type": "lecture",
+		"causes": [],
+		"speakers": ["Jacqueline Fuller"],
+		"videoURL": ""
+	},
+	{
+		"title": "Communicating Complex Concepts",
+		"url": "complexideas",
+		"descrip": "",
+		"category": "do",
+		"type": "panel",
+		"causes": ["education"],
+		"speakers": ["Rob Reich", "Tim Urban", "Eliezer Yudkowsky", "Julia Galef"],
+		"videoURL": ""
+	},
+	{
+		"title": "Global Poverty, pt.1",
+		"url": "poverty1",
+		"descrip": "",
+		"category": "big",
+		"type": "lecture",
+		"causes": ["suffering"],
+		"speakers": ["Eva Vivalt"],
+		"videoURL": ""
+	},
+	{
+		"title": "Global Poverty, pt.2",
+		"url": "poverty2",
+		"descrip": "",
+		"category": "big",
+		"type": "lecture",
+		"causes": ["suffering"],
+		"speakers": ["Jeff Kaufman"],
+		"videoURL": ""
+	},
+	{
+		"title": "Global Poverty, pt.3",
+		"url": "poverty3",
+		"descrip": "",
+		"category": "big",
+		"type": "lecture",
+		"causes": ["suffering"],
+		"speakers": ["Michael Faye"],
+		"videoURL": ""
+	},
+	{
+		"title": "Animal Advocacy, pt.1",
+		"url": "animal1",
+		"descrip": "",
+		"category": "big",
+		"type": "lecture",
+		"causes": ["animals"],
+		"speakers": ["Jacy Anthis"],
+		"videoURL": ""
+	},
+	{
+		"title": "Animal Advocacy, pt.2",
+		"url": "animal2",
+		"descrip": "",
+		"category": "big",
+		"type": "lecture",
+		"causes": ["animals"],
+		"speakers": ["Jeff Sebo"],
+		"videoURL": ""
+	},
+	{
+		"title": "Animal Advocacy, pt.3",
+		"url": "animal3",
+		"descrip": "",
+		"category": "big",
+		"type": "lecture",
+		"causes": ["animals"],
+		"speakers": ["Nick Cooney"],
+		"videoURL": ""
+	},
+	{
+		"title": "EA Org Updates, pt.2",
+		"url": "updates2",
+		"descrip": "",
+		"category": "big",
+		"type": "lightning",
+		"causes": ["tech", "exrisk", "suffering", "education", "animals"],
+		"speakers": ["Charity Science", "Giving What We Can", "80,000 Hours", "Centre for Effective Altruism", "Center for Applied Rationality", "Animal Charity Evaluators", "Leverage", "EA Action"],
+		"videoURL": ""
+	},
+	{
+		"title": "Life as an EA",
+		"url": "beingea",
+		"descrip": "",
+		"category": "do",
+		"type": "q&a",
+		"causes": [],
+		"speakers": ["Julia Wise", "Daniel Colson", "Buck Shlegeris", "Jess Whittlestone", "Brayden McLean"],
+		"videoURL": ""
+	},
+	{
+		"title": "Community Talks",
+		"url": "anecdotes",
+		"descrip": "",
+		"category": "future",
+		"type": "lightning",
+		"causes": [],
+		"speakers": ["Christine Sherry", "Diego Caliero", "Michael Vassar", "Luke Nosek", "Paul Duhan", "Ozzie Gooen", "Patrick LaVictoire", "Kristian Ronn"],
+		"videoURL": ""
+	},
+	{
+		"title": "Policy Change, pt.1",
+		"url": "policy1",
+		"descrip": "",
+		"category": "future",
+		"type": "lecture",
+		"causes": ["strategy"],
+		"speakers": ["Howie Lempel"],
+		"videoURL": ""
+	},
+	{
+		"title": "Policy Change, pt.2",
+		"url": "policy2",
+		"descrip": "",
+		"category": "future",
+		"type": "lecture",
+		"causes": ["strategy"],
+		"speakers": ["Rajesh Mirchandani"],
+		"videoURL": ""
+	},
+	{
+		"title": "Policy Change, pt.3",
+		"url": "policy3",
+		"descrip": "",
+		"category": "future",
+		"type": "lecture",
+		"causes": ["strategy"],
+		"speakers": ["Matthew Gentzel"],
+		"videoURL": ""
+	},
+	{
+		"title": "Prioritization Research, pt.1",
+		"url": "priorities1",
+		"descrip": "",
+		"category": "big",
+		"type": "lecture",
+		"causes": ["strategy"],
+		"speakers": ["Nick Beckstead"],
+		"videoURL": ""
+	},
+	{
+		"title": "Prioritization Research, pt.2",
+		"url": "priorities2",
+		"descrip": "",
+		"category": "big",
+		"type": "lecture",
+		"causes": ["strategy"],
+		"speakers": ["Geoff Anders"],
+		"videoURL": ""
+	},
+	{
+		"title": "Prioritization Research, pt.3",
+		"url": "priorities3",
+		"descrip": "",
+		"category": "big",
+		"type": "lecture",
+		"causes": ["strategy"],
+		"speakers": ["Owen Cotton-Barratt"],
+		"videoURL": ""
+	},
+	{
+		"title": "Navigating Intellectual Disagreement",
+		"url": "debate",
+		"descrip": "",
+		"category": "do",
+		"type": "workshop",
+		"causes": [],
+		"speakers": ["McKenzie Amodei", "Andrew Critch"],
+		"videoURL": ""
+	},
+	{
+		"title": "The Nature of Altruism, pt.1",
+		"url": "altruism1",
+		"descrip": "",
+		"category": "big",
+		"type": "lecture",
+		"causes": [],
+		"speakers": ["Robin Hanson"],
+		"videoURL": ""
+	},
+	{
+		"title": "The Nature of Altruism, pt.2",
+		"url": "altruism2",
+		"descrip": "",
+		"category": "big",
+		"type": "lecture",
+		"causes": [],
+		"speakers": ["Joshua Greene"],
+		"videoURL": ""
+	},
+	{
+		"title": "Making a Difference in Existential Risk",
+		"url": "exrisk",
+		"descrip": "",
+		"category": "do",
+		"type": "workshop",
+		"causes": ["exrisk", "strategy"],
+		"speakers": ["Seán Ó hÉigeartaigh", "Nate Soares", "Owen Cotton-Barratt", "Victoria Krakovna"],
+		"videoURL": ""
+	},
+	{
+		"title": "Effective Altruists and Community, pt.1",
+		"url": "community1",
+		"descrip": "",
+		"category": "do",
+		"type": "lecture",
+		"causes": [],
+		"speakers": ["Amanda MacAskill"],
+		"videoURL": ""
+	},
+	{
+		"title": "Effective Altruists and Community, pt.2",
+		"url": "community2",
+		"descrip": "",
+		"category": "do",
+		"type": "lecture",
+		"causes": [],
+		"speakers": ["Kate Donovan"],
+		"videoURL": ""
+	},
+	{
+		"title": "Biology and Technology, pt.1",
+		"url": "biotech1",
+		"descrip": "",
+		"category": "future",
+		"type": "lecture",
+		"causes": ["tech"],
+		"speakers": ["Ryan Phelan"],
+		"videoURL": ""
+	},
+	{
+		"title": "Biology and Technology, pt.2",
+		"url": "biotech2",
+		"descrip": "",
+		"category": "future",
+		"type": "lecture",
+		"causes": ["tech"],
+		"speakers": ["Uma Valeti"],
+		"videoURL": ""
+	},
+	{
+		"title": "Biology and Technology, pt.3",
+		"url": "biotech3",
+		"descrip": "",
+		"category": "future",
+		"type": "lecture",
+		"causes": ["tech"],
+		"speakers": ["Andrew Snyder-Beattie"],
+		"videoURL": ""
+	},
+	{
+		"title": "Giving Game",
+		"url": "giving",
+		"descrip": "",
+		"category": "do",
+		"type": "workshop",
+		"causes": [],
+		"speakers": ["Jon Behar"],
+		"videoURL": ""
+	},
+	{
+		"title": "Philanthropic Choices",
+		"url": "choices",
+		"descrip": "",
+		"category": "do",
+		"type": "q&a",
+		"causes": [],
+		"speakers": ["Holden Karnofsky"],
+		"videoURL": ""
+	},
+	{
+		"title": "EA Career Mistakes",
+		"url": "careermistakes",
+		"descrip": "",
+		"category": "do",
+		"type": "workshop",
+		"causes": ["strategy"],
+		"speakers": ["Ben Todd"],
+		"videoURL": ""
+	},
+	{
+		"title": "Movement Development, pt.1",
+		"url": "movement1",
+		"descrip": "",
+		"category": "future",
+		"type": "lecture",
+		"causes": ["strategy"],
+		"speakers": ["Rob Wiblin"],
+		"videoURL": ""
+	},
+	{
+		"title": "Movement Development, pt.2",
+		"url": "movement2",
+		"descrip": "",
+		"category": "future",
+		"type": "lecture",
+		"causes": ["strategy"],
+		"speakers": ["Kerry Vaughan"],
+		"videoURL": ""
+	},
+	{
+		"title": "Movement Development, pt.3",
+		"url": "movement3",
+		"descrip": "",
+		"category": "future",
+		"type": "lecture",
+		"causes": ["strategy"],
+		"speakers": ["Matt Wage"],
+		"videoURL": ""
+	},
+	{
+		"title": "Running a Chapter",
+		"url": "leadership",
+		"descrip": "",
+		"category": "do",
+		"type": "panel",
+		"causes": [],
+		"speakers": ["Ben Kuhn", "Jonathan Courtney", "Ajeya Cotra", "Chris Jenkins", "Aaron Tucker"],
+		"videoURL": ""
+	},
+	{
+		"title": "State of the EA Union",
+		"url": "closing",
+		"descrip": "",
+		"category": "future",
+		"type": "lecture",
+		"causes": [],
+		"speakers": ["Will MacAskill"],
+		"videoURL": ""
+	}
+]

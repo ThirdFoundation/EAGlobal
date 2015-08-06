@@ -1,0 +1,50 @@
+<img id="divider" src="img/divider.png">
+
+<div id="first_vid" class="talk_holder animated fadeIn">
+	<span class="talk r_bold medium blue">{{first.title}}</span>
+	<span class="speaker r_light tiny white">{{first.speakers[0]}}</span>
+	<a ng-href="#{{display}}/{{first.url}}"><img class="play_button" src="img/play.png"></a>
+</div>
+
+<span class="r_med small white">Show only:</span>
+<div id="button_holder">
+	<button ng-repeat="button in styles"
+					ng-click="toggle()"
+					ng-class="{button: true, pressed: button.state}">{{button.text}}</button>
+</div>
+
+<div id="button_holder">
+	<button ng-repeat="button in causes"
+					ng-click="toggle()"
+					ng-class="{button: true, pressed: button.state}">{{button.text}}</button>
+</div>
+
+<span class="r_med small white">Speaker(s):</span>
+<input id="speaker_search_box" class="r_light small white" ng-model="filter.speakers">
+<span class="r_light small white">{{speaker}}</span>
+
+<section id="talk_box">
+	<div ng-class="{talk_holder:	true,
+									animated:			true,
+									fadeIn:				$index === 0,
+									fadeInWait1:	$index === 1 || $index === 3,
+									fadeInWait2:	$index === 2 || $index === 4 || $index === 6,
+									fadeInWait3:	$index === 5 || $index === 7 || $index === 9,
+									fadeInWait4:	$index === 8 || $index === 10 || $index === 12,
+									fadeInWait5:	$index === 11 || $index === 13 || $index === 15,
+									fadeInWait6:	$index === 14 || $index === 16 || $index === 18,
+									fadeInWait7:	$index === 17 || $index === 19 || $index === 21,
+									fadeInWait8:	$index === 20 || $index === 22 || $index === 24,
+									fadeInWait9:	$index === 23 || $index > 24}"
+			 ng-repeat="talk in talks | filter:filter">
+		<span ng-class="{talk:		true,
+										 r_bold:	true,
+										 medium:	true,
+										 blue:		talk.category === 'big',
+										 red:			talk.category === 'do',
+										 green:		talk.category === 'future'}">{{talk.title}}</span>
+		<span ng-repeat="speaker in talk.speakers"
+					class="speaker r_light tiny white">{{speaker}}</span>
+		<a ng-href="#{{display}}/{{talk.url}}"><img class="play_button" src="img/play.png"></a>
+	</div>
+</section>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html ng-app="eaMediaApp">
+  <head>
+    <title>EA Global Media</title>
+    <meta charset="UTF-8">
+      <link type="text/css" rel="stylesheet" href="css/normalize.css">
+      <link type="text/css" rel="stylesheet" href="css/animate.css">
+      <link type="text/css" rel="stylesheet" href="css/layout.css">
+      <link type="text/css" rel="stylesheet" href="css/style.css">
+      <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway:700,500,400|Montserrat:700|Roboto+Slab:400">
+      <link rel="shortcut icon" href="img/heartbulb.ico">
+  </head>
+  <body>
+    <div id="canvas">
+      <header ng-controller="HeaderController">
+        <a href="#/main">
+          <img id="logo" src="img/heartbulb.png">
+          <span id="headline" class="roboto large white center">Effective Altruism Global</span>
+        </a>
+        <span id="headquote" class="r_ital white center">"There's a very thin line between intending good and doing good—between trying to help and actually helping—and the people who end up on the right side of it are the ones who are not only open to the possibility that there might be a better way, but eager to find it and adopt it."</span>
+        <iframe width="600" height="338" src="https://www.youtube.com/embed/p_cqDQsGpEA?rel=0" frameborder="0" allowfullscreen></iframe>
+      </header>
+      <body>
+        <div id="event_links">
+          <div class="event_holder" id="cal">
+            <a href="#/cal">
+              <span class="r_light small white">Media from</span>
+              <span class="mont large blue">GOOGLE, CA</span>
+              <span class="r_light small white">July 31—August 2, 2015</span>
+            </a>
+          </div>
+          <div class="event_holder" id="mel">
+            <a href="#/mel">
+              <span class="r_light small white">Media from</span>
+              <span class="mont large blue">MELBOURNE</span>
+              <span class="r_light small white">August 14—16, 2015</span>
+            </a>
+          </div>
+          <div class="event_holder" id="oxf">
+            <a href="#/oxf">
+              <span class="r_light small white">Media from</span>
+              <span class="mont large blue">OXFORD</span>
+              <span class="r_light small white">August 28—30, 2015</span>
+            </a>
+          </div>
+        </div>
+        <section ng-view></section>
+      </body>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.1/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.1/angular-route.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
