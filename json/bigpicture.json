@@ -1,0 +1,185 @@
+[
+	{
+		"title": "Track Introduction",
+		"url": "bigpicture",
+		"causes": [],
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"speakers": ["Rob Wiblin"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "Astronomical Stakes",
+		"url": "stakes",
+		"causes": [],
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"speakers": ["Nick Bostrom"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "EA Org Updates",
+		"url": "updates1",
+		"type": "lightning",
+		"causes": ["tech", "exrisk", "suffering", "education"],
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"speakers": ["GiveWell", "Open Philanthropy Project", "The Life You Can Save", "Machine Intelligence Research Institute", "Global Priorities Project", "GiveDirectly", "Giordano-Bruno-Stiftung", "Future of Humanity Institute"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "Superintelligence",
+		"url": "superintelligence",
+		"type": "panel",
+		"causes": ["tech", "exrisk"],
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"speakers": ["Elon Musk", "Nate Soares", "Stuart Russell", "Nick Bostrom", "Daniel Dewey"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "Rationality, pt.1",
+		"url": "rationality1",
+		"causes": ["education"],
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"speakers": ["Matt Falshaw"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "Rationality, pt.2",
+		"url": "rationality2",
+		"causes": ["education"],
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"speakers": ["Ben Hoffman"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "Rationality, pt.3",
+		"url": "rationality3",
+		"causes": ["education"],
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"speakers": ["Anna Salamon"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "The Future of Philanthropy",
+		"url": "philanthropy",
+		"causes": [],
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"speakers": ["Jacqueline Fuller"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "Global Poverty, pt.1",
+		"url": "poverty1",
+		"causes": ["suffering"],
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"speakers": ["Eva Vivalt"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "Global Poverty, pt.2",
+		"url": "poverty2",
+		"causes": ["suffering"],
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"speakers": ["Jeff Kaufman"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "Global Poverty, pt.3",
+		"url": "poverty3",
+		"causes": ["suffering"],
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"speakers": ["Michael Faye"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "Animal Advocacy, pt.1",
+		"url": "animal1",
+		"causes": ["animals"],
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"speakers": ["Jacy Anthis"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "Animal Advocacy, pt.2",
+		"url": "animal2",
+		"causes": ["animals"],
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"speakers": ["Jeff Sebo"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "Animal Advocacy, pt.3",
+		"url": "animal3",
+		"causes": ["animals"],
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"speakers": ["Nick Cooney"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "EA Org Updates, pt.2",
+		"url": "updates2",
+		"type": "lightning",
+		"causes": ["tech", "exrisk", "suffering", "education", "animals"],
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"speakers": ["Charity Science", "Giving What We Can", "80,000 Hours", "Centre for Effective Altruism", "Center for Applied Rationality", "Animal Charity Evaluators", "Leverage", "EA Action"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "Prioritization Research, pt.1",
+		"url": "priorities1",
+		"causes": ["strategy"],
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"speakers": ["Nick Beckstead"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "Prioritization Research, pt.2",
+		"url": "priorities2",
+		"causes": ["strategy"],
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"speakers": ["Geoff Anders"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "Prioritization Research, pt.3",
+		"url": "priorities3",
+		"causes": ["strategy"],
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"speakers": ["Owen Cotton-Barratt"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "The Nature of Altruism, pt.1",
+		"url": "altruism1",
+		"causes": [],
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"speakers": ["Robin Hanson"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "The Nature of Altruism, pt.2",
+		"url": "altruism2",
+		"causes": [],
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"speakers": ["Joshua Greene"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	}
+]

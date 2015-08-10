@@ -1,62 +1,69 @@
 body {
-	background-image: url("../img/earthDark.png");
-	background-size: 100%;
+	min-width: 100%;
+	padding: 1px;
 }
-iframe {
-	display: block;
-	margin: 30px auto 50px auto;
+header {
+	width: 100%;
+	background-image: url("../img/background.png");
+	background-size: cover;
+	background-position: top center;
+	margin: 0px;
+	padding: 10px 20px 30px 20px;
 }
-#canvas {
-	width: 1080px;
-	min-height: 1100px;
-	margin-right: auto;
-	margin-left:auto;
-	padding-bottom: 50px;
-}
-#logo {
-	width: 75px;
-	display: block;
-	margin: 30px auto 10px auto;
-}
-#headline {
+#home {
 	width: 360px;
 	display: block;
 	margin: 0px auto 0px auto;
 }
-#headquote {
-	width: 800px;
+#logo {
+	width: 60px;
 	display: block;
-	margin: 10px auto 20px auto;
+	margin: 24px auto 10px auto;
+}
+#headline {
+	width: 360px;
+	display: block;
+	margin: 0px auto 20px auto;
+}
+#divider_thin {
+	height: 4px;
+	width: 600px;
+	display: block;
+	margin: 25px auto 25px auto;
+}
+#divider_wide {
+	height: 4px;
+	width: 600px;
+	display: block;
+	margin: 20px auto 20px auto;
+}
+iframe {
+	display: block;
+	margin: 20px auto 40px auto;
+}
+#white_section {
+	padding: 50px 0px 50px 0px;
 }
 #event_links {
-	width: 900px;
+	width: 1020px;
 	display: table;
-	margin: 10px auto 10px auto;
+	margin: 20px auto 10px auto;
 }
 .event_holder {
 	display: table-cell;
-	width: 200px;
+	width: 340px;
 	text-align: center;
 }
 .event_holder span {
 	display: block;
 }
-.center {
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
+.event_sub {
+	padding: 0px 35px 0px 35px;
 }
-.alone {
-	display: block;
-}
-.top {
-	vertical-align: top;
-}
-.bottom {
-	position: absolute;
-}
-#divider {
-	margin: 40px 0px 40px 0px;
+#blue_section {
+	width: 100%;
+	background-color: #00A6B3;
+	padding: 30px 0px 10px 0px;
 }
 #sponsors {
 	width: 637px;
@@ -67,18 +74,63 @@ iframe {
 	width: 840px;
 	display: block;
 }
-#talk_box {
-	width: 1080px;
-	min-height: 100vh;
-	margin: 0px auto 0px auto;
+.intro {
+	width: 820px;
+	display: block;
+	margin: 20px auto 20px auto;
+}
+#dark_gray_section {
+	width: 100%;
+	background-color: #2b2b2b;
+	padding: 20px 0px 30px 0px;
+}
+#container_960 {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.center {
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.spaced {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.alone {
+	display: block;
+}
+.top {
+	vertical-align: top;
+}
+.bottom {
+	position: absolute;
 }
 .talk_holder {
-	width: 320px;
-	display: inline-block;
-	vertical-align: top;
-	text-align: center;
-	margin: 15px 20px 15px 20px;
+	width: 960px;
+	height: 304px;
+	display: block;
+	margin: 20px 0px 20px 10px;
 	overflow: auto;
+}
+.word_holder {
+	display: inline-block;
+	width: 510px;
+	height: 300px;
+	margin: 0px 30px 0px 0px;
+	vertical-align: top;
+}
+.small_vid {
+	display: inline-block;
+	width: 360px;
+	height: 270px;
+	margin: 0px;
+}
+.talk_title {
+	display: block;
+	margin: 0px 0px 10px 0px;
 }
 .talk {
 	width: 320px;
@@ -86,13 +138,13 @@ iframe {
 	display: table-cell;
 	vertical-align: bottom;
 }
-.speaker {
+.speaker_holder {
 	display: block;
+	margin-bottom: 10px;
 }
-.play_button {
-	width: 30px;
-	height: 30px;
-	margin-top: 5px;
+.speaker {
+	display: inline-block;
+	margin: 0px 15px 2px 0px;
 }
 #first_vid {
 	display: block;
@@ -104,16 +156,14 @@ iframe {
 .button_holder {
 	display: block;
 }
-#controls {
-	margin: 40px 0px 0px 0px;
-}
 .control_containers {
-	height: 70px;
+	height: 50px;
+	margin: 10px 0px 10px 10px;
 	display: block;
 	overflow: auto;
 }
 .control_label {
 	width: 80px;
 	margin: 0px 5px 0px 0px;
-	vertical-align: top;
+	vertical-align: center;
 }

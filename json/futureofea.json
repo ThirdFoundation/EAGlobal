@@ -1,0 +1,128 @@
+[
+	{
+		"title": "— The Future of EA —",
+		"url": "future",
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"causes": [],
+		"speakers": ["Kerry Vaughan"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "Funding Models",
+		"url": "funding",
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"causes": [],
+		"speakers": ["Bryan Johnson", "Brigitte Gosselink", "Kerry Vaughan", "Jason Matheny", "Miguel Veiga-Pestana", "Zanoon Nissar", " ", "  "],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "Effective Altruism and the Media",
+		"url": "media",
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"causes": [],
+		"speakers": ["Nico Pitney", "Dylan Matthews", "Laura Gamse", "Rajesh Minchandani"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "Community Talks",
+		"url": "anecdotes",
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"causes": [],
+		"speakers": ["Christine Sherry", "Diego Caliero", "Michael Vassar", "Luke Nosek", "Paul Duhan", "Ozzie Gooen", "Patrick LaVictoire", "Kristian Ronn"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "Policy Change, pt.1",
+		"url": "policy1",
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"causes": ["strategy"],
+		"speakers": ["Howie Lempel"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "Policy Change, pt.2",
+		"url": "policy2",
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"causes": ["strategy"],
+		"speakers": ["Rajesh Mirchandani"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "Policy Change, pt.3",
+		"url": "policy3",
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"causes": ["strategy"],
+		"speakers": ["Matthew Gentzel"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "Biology and Technology, pt.1",
+		"url": "biotech1",
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"causes": ["tech"],
+		"speakers": ["Ryan Phelan"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "Biology and Technology, pt.2",
+		"url": "biotech2",
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"causes": ["tech"],
+		"speakers": ["Uma Valeti"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "Biology and Technology, pt.3",
+		"url": "biotech3",
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"causes": ["tech"],
+		"speakers": ["Andrew Snyder-Beattie"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "Movement Development, pt.1",
+		"url": "movement1",
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"causes": ["strategy"],
+		"speakers": ["Rob Wiblin"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "Movement Development, pt.2",
+		"url": "movement2",
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"causes": ["strategy"],
+		"speakers": ["Kerry Vaughan"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "Movement Development, pt.3",
+		"url": "movement3",
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"causes": ["strategy"],
+		"speakers": ["Matt Wage"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "State of the EA Union",
+		"url": "closing",
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"causes": [],
+		"speakers": ["Will MacAskill"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	}
+]

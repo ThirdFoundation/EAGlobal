@@ -7,46 +7,46 @@
       <link type="text/css" rel="stylesheet" href="css/animate.css">
       <link type="text/css" rel="stylesheet" href="css/layout.css">
       <link type="text/css" rel="stylesheet" href="css/style.css">
-      <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway:700,500,400|Montserrat:700|Roboto+Slab:400">
+      <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway:700,500,300|Montserrat:700|Roboto+Slab:400">
       <link rel="shortcut icon" href="img/heartbulb.ico">
   </head>
   <body>
-    <div id="canvas">
-      <header ng-controller="HeaderController">
-        <a href="#/main">
-          <img id="logo" src="img/heartbulb.png">
-          <span id="headline" class="roboto large white center">Effective Altruism Global</span>
-        </a>
-        <span id="headquote" class="r_ital white center">"There's a very thin line between intending good and doing good—between trying to help and actually helping—and the people who end up on the right side of it are the ones who are not only open to the possibility that there might be a better way, but eager to find it and adopt it."</span>
-        <iframe width="600" height="338" src="https://www.youtube.com/embed/p_cqDQsGpEA?rel=0" frameborder="0" allowfullscreen></iframe>
-      </header>
-      <body>
-        <div id="event_links">
-          <div class="event_holder" id="cal">
-            <a href="#/cal">
-              <span class="r_light small white">Media from</span>
-              <span class="mont large blue">GOOGLE, CA</span>
-              <span class="r_light small white">July 31—August 2, 2015</span>
-            </a>
-          </div>
-          <div class="event_holder" id="mel">
-            <a href="#/mel">
-              <span class="r_light small white">Media from</span>
-              <span class="mont large blue">MELBOURNE</span>
-              <span class="r_light small white">August 14—16, 2015</span>
-            </a>
-          </div>
-          <div class="event_holder" id="oxf">
-            <a href="#/oxf">
-              <span class="r_light small white">Media from</span>
-              <span class="mont large blue">OXFORD</span>
-              <span class="r_light small white">August 28—30, 2015</span>
-            </a>
-          </div>
+    <header ng-controller="HeaderController">
+      <a href="#/main" id="home">
+        <img id="logo" src="img/heartbulb.png">
+        <span id="headline" class="roboto large white center spaced shady">Effective Altruism Videos</span>
+      </a>
+      <img id="divider_thin" src="img/divider.png">
+      <span class="r_light medium white center spaced shady">Two steps toward a brighter future:</span>
+      <span class="r_light medium white center shady">Figure out how to do the most good, and <b>do it</b>.</span>
+      <iframe width="600" height="338" src="https://www.youtube.com/embed/p_cqDQsGpEA?rel=0" frameborder="0" allowfullscreen></iframe>
+    </header>
+    <section id="white_section">
+      <div id="event_links">
+        <div class="event_holder" id="big">
+          <a href="#/bigpicture">
+            <span class="r_med smedium black event_sub">Click for media on</span>
+            <span class="mont huge dark_blue">BIG PICTURE</span>
+            <span class="r_med smedium black event_sub">High-priority problems and the promise of EA</span>
+          </a>
         </div>
-        <section ng-view></section>
-      </body>
-    </div>
+        <div class="event_holder" id="what">
+          <a href="#/whattodo">
+            <span class="r_med smedium black event_sub">Click for media on</span>
+            <span class="mont huge light_blue">WHAT TO DO</span>
+            <span class="r_med smedium black event_sub">Practical suggestions for next actions</span>
+          </a>
+        </div>
+        <div class="event_holder" id="future">
+          <a href="#/futureofea">
+            <span class="r_med smedium black event_sub">Click for media on</span>
+            <span class="mont huge orange">THE FUTURE OF EA</span>
+            <span class="r_med smedium black event_sub">From individuals who care to a movement that matters</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section ng-view></section>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.1/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.1/angular-route.js"></script>
     <script src="js/app.js"></script>

@@ -20,7 +20,7 @@ eaMediaApp.controller('MainController', function($scope) {
 });
 
 eaMediaApp.controller('HeaderController', ['$scope', '$routeParams', function($scope, $routeParams) {
-  $scope.display = ['cal', 'mel', 'oxf'];
+  $scope.display = ['bigpicture', 'whattodo', 'futureofea'];
   $scope.url = $routeParams;
 }]);
 
@@ -30,44 +30,19 @@ eaMediaApp.controller('DisplayController', ['$scope', '$http', '$routeParams', f
       $scope.first = data[0];
       $scope.talks = data.slice(1);
     });
-    $scope.styles = [
-      {'text': 'Lectures/Talks', 'tag': 'lecture', 'state': false},
-      {'text': 'Panels', 'tag': 'panel', 'state': false},
-      {'text': 'Workshops', 'tag': 'workshop', 'state': false},
-      {'text': 'Q & A', 'tag': 'q&a', 'state': false},
-      {'text': 'Show All', 'tag': '', 'state': false}
-    ];
     $scope.causes = [
-      {'text': 'Strategy', 'tag': 'strategy', 'state': false},
-      {'text': 'Technology', 'tag': 'tech', 'state': false},
-      {'text': 'Education', 'tag': 'education', 'state': false},
-      {'text': 'Animal Suffering', 'tag': 'animals', 'state': false},
-      {'text': 'Quality of Life', 'tag': 'suffering', 'state': false},
-      {'text': 'Existential Risk', 'tag': 'exrisk', 'state': false}
+      {'text': 'ALL', 'tag': '', 'state': false},
+      {'text': 'STRATEGY', 'tag': 'strategy', 'state': false},
+      {'text': 'TECH', 'tag': 'tech', 'state': false},
+      {'text': 'EDUCATION', 'tag': 'education', 'state': false},
+      {'text': 'ANIMAL SUFFERING', 'tag': 'animals', 'state': false},
+      {'text': 'QUALITY OF LIFE', 'tag': 'suffering', 'state': false},
+      {'text': 'EX-RISK', 'tag': 'exrisk', 'state': false}
     ];
     $scope.toggle = function() {
       this.button.state = !this.button.state;
       $scope.filterBy = this.button.tag;
     }
-}]);
-
-eaMediaApp.controller('VideoController', ['$scope', '$http', '$routeParams', '$sce', function($scope, $http, $routeParams, $sce) {
-    $scope.format = 'basic';
-    $http.get('json/projects/' + $routeParams.project + '.json').success(function(data) {
-      $scope.contents = data[0];
-      if ($scope.contents.hasOwnProperty('videoURLs')) {
-        $scope.format = 'video';
-      }
-      if ($scope.contents.hasOwnProperty('articleLink')) {
-        $scope.hasLink = true;
-      }
-      if ($scope.contents.hasOwnProperty('articleURLs')) {
-        $scope.format = 'article';
-      }
-      if ($scope.contents.hasOwnProperty('pdfURLs')) {
-        $scope.format = 'pdf';
-      }
-    });
 }]);
 
 eaMediaApp.filter('trustURL', function ($sce) {

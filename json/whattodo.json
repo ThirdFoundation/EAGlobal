@@ -1,0 +1,146 @@
+[
+	{
+		"title": "— What EAs Can Do —",
+		"url": "action",
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"causes": ["strategy"],
+		"speakers": ["Ben Todd"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "Meta EA Global",
+		"url": "meta",
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"causes": ["strategy"],
+		"speakers": ["James Norris"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "Networking",
+		"url": "networking",
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"causes": [],
+		"speakers": ["Avary Kent"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "Altruistic Entrepreneurship, pt.1",
+		"url": "entrepreneurship1",
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"causes": ["strategy"],
+		"speakers": ["Spencer Greenberg"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "Altruistic Entrepreneurship, pt.2",
+		"url": "entrepreneurship2",
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"causes": ["strategy"],
+		"speakers": ["Jeff Brown"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "Altruistic Entrepreneurship, pt.3",
+		"url": "entrepreneurship3",
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"causes": ["strategy"],
+		"speakers": ["Liv Boeree"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "Communicating Complex Concepts",
+		"url": "complexideas",
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"causes": ["education"],
+		"speakers": ["Rob Reich", "Tim Urban", "Eliezer Yudkowsky", "Julia Galef"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "Life as an EA",
+		"url": "beingea",
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"causes": [],
+		"speakers": ["Julia Wise", "Daniel Colson", "Buck Shlegeris", "Jess Whittlestone", "Brayden McLean"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "Navigating Intellectual Disagreement",
+		"url": "debate",
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"causes": [],
+		"speakers": ["McKenzie Amodei", "Andrew Critch"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "Making a Difference in Existential Risk",
+		"url": "exrisk",
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"causes": ["exrisk", "strategy"],
+		"speakers": ["Seán Ó hÉigeartaigh", "Nate Soares", "Owen Cotton-Barratt", "Victoria Krakovna"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "Effective Altruists and Community, pt.1",
+		"url": "community1",
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"causes": [],
+		"speakers": ["Amanda MacAskill"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "Effective Altruists and Community, pt.2",
+		"url": "community2",
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"causes": [],
+		"speakers": ["Kate Donovan"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "Giving Game",
+		"url": "giving",
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"causes": [],
+		"speakers": ["Jon Behar"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "Philanthropic Choices",
+		"url": "choices",
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"causes": [],
+		"speakers": ["Holden Karnofsky"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "EA Career Mistakes",
+		"url": "careermistakes",
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"causes": ["strategy"],
+		"speakers": ["Ben Todd"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	},
+	{
+		"title": "Running a Chapter",
+		"url": "leadership",
+		"blurb": "Once upon a midnight dreary, while I pondered, weak and weary, over many a quaint and curious volume of forgotten lore, while I nodded, nearly napping, suddenly there came a tapping, as of someone gently rapping, rapping at my chamber door.  'Tis some visitor, I muttered, tapping at my chamber door.  Only this, and nothing more.",
+		"causes": [],
+		"speakers": ["Ben Kuhn", "Jonathan Courtney", "Ajeya Cotra", "Chris Jenkins", "Aaron Tucker"],
+		"thumbURL": "img/oliver.png",
+		"videoURL": "https://www.youtube.com/embed/p_cqDQsGpEA?rel=0"
+	}
+]

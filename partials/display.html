@@ -1,65 +1,68 @@
-<img id="divider" src="img/divider.png">
-<div id="first_vid" class="talk_holder animated fadeIn">
-	<span class="talk r_bold medium blue">{{first.title}}</span>
-	<span class="speaker r_light tiny white">{{first.speakers[0]}}</span>
-	<a ng-href="#{{display}}/{{first.url}}"><img class="play_button" src="img/play.png"></a>
-</div>
-<div id="controls">
-	<div class="control_containers">
-		<span class="r_med small white control_label">Keyword:</span>
-		<div id="all_buttons">
-			<div class="button_holder">
-				<button ng-repeat="button in causes"
-								ng-click="toggle()"
-								ng-model="filter.causes"
-								ng-class="{button:  true,
-													 r_light: true,
-													 small:		true,
-													 white:		true,
-													 pressed: button.tag === filterBy}">{{button.text}}</button>
-			</div>
-			<div class="button_holder">
-				<button ng-repeat="button in styles"
-								ng-click="toggle()"
-								ng-model="filter.type"
-								ng-class="{button:  true,
-													 r_light: true,
-													 small:		true,
-													 white:		true,
-													 pressed: button.tag === filterBy}">{{button.text}}</button>
+<section id="blue_section" ng-switch="{{display}}">
+	<div ng-show="display === 'bigpicture'">
+		<span class="mont huge white center">BIG PICTURE</span>
+		<span class="intro r_med medium white center">The goal of this track is to provide perspectives and challenge assumptions—many of these speakers disagree on goals, priorities, and methods.  As you watch, think carefully about the beliefs that guide <b>you</b>, and how your plans would change if you discovered that one or more of them was incorrect.</span>
+		<iframe width="600" height="339" ng-src="{{first['videoURL'] | trustURL}}" frameborder="0" allowfullscreen></iframe>
+	</div>
+	<div ng-show="display === 'whattodo'">
+		<span class="mont huge white center">WHAT TO DO</span>
+		<span class="intro r_med medium white center">The goal of this track is to educate effective altruists about specific, concrete things that could be done to improve the state of the world. As you watch, consider which suggestions might fit with your own plans and skill set, and see if there are any steps you can actually envision yourself taking at some point in the near future.</span>
+		<iframe width="600" height="339" ng-src="{{first['videoURL'] | trustURL}}" frameborder="0" allowfullscreen></iframe>
+	</div>
+	<div ng-show="display === 'futureofea'">
+		<span class="mont huge white center">THE FUTURE OF EA</span>
+		<span class="intro r_med medium white center">The goal of this track is to outline the future we would like to see, both in terms of the larger world and in terms of EA's place and purpose within it. As you watch, think about the changes that need to happen between now and then, and whether you think this vision is practical, attainable, and complete.</span>
+		<iframe width="600" height="339" ng-src="{{first['videoURL'] | trustURL}}" frameborder="0" allowfullscreen></iframe>
+	</div>
+</section>
+<section id="dark_gray_section">
+	<div id="container_960">
+		<div class="control_containers">
+			<span class="r_med small white control_label">Keyword:</span>
+			<div id="all_buttons">
+				<div class="button_holder">
+					<button ng-repeat="button in causes"
+									ng-click="toggle()"
+									ng-model="filter.causes"
+									ng-class="{button:  true,
+														 r_light: true,
+														 small:		true,
+														 white:		true,
+														 pressed: button.tag === filterBy}">{{button.text}}
+					</button>
+				</div>
 			</div>
 		</div>
-	</div>
-	<div class="control_containers">
-		<span class="r_med small white control_label">Speaker:</span>
-		<input id="speaker_search_box"
-					 class="r_light small white"
-					 ng-model="filter.speakers">
-	</div>
-</div>
-
-<section id="talk_box">
-	<div ng-class="{talk_holder:	true,
-									animated:			true,
-									fadeIn:				$index === 0,
-									fadeInWait1:	$index === 1 || $index === 3,
-									fadeInWait2:	$index === 2 || $index === 4 || $index === 6,
-									fadeInWait3:	$index === 5 || $index === 7 || $index === 9,
-									fadeInWait4:	$index === 8 || $index === 10 || $index === 12,
-									fadeInWait5:	$index === 11 || $index === 13 || $index === 15,
-									fadeInWait6:	$index === 14 || $index === 16 || $index === 18,
-									fadeInWait7:	$index === 17 || $index === 19 || $index === 21,
-									fadeInWait8:	$index === 20 || $index === 22 || $index === 24,
-									fadeInWait9:	$index === 23 || $index > 24}"
-			 ng-repeat="talk in talks | filter:filter | filter:filterBy">
-		<span ng-class="{talk:		true,
-										 r_bold:	true,
-										 medium:	true,
-										 blue:		talk.category === 'big',
-										 red:			talk.category === 'do',
-										 green:		talk.category === 'future'}">{{talk.title}}</span>
-		<span ng-repeat="speaker in talk.speakers"
-					class="speaker r_light tiny white">{{speaker}}</span>
-		<a ng-href="#{{display}}/{{talk.url}}"><img class="play_button" src="img/play.png"></a>
+		<div class="control_containers">
+			<span class="r_med small white control_label">Speaker:</span>
+			<input id="speaker_search_box"
+						 class="r_light small white"
+						 ng-model="filter.speakers">
+		</div>
+		<div ng-class="{talk_holder:	true,
+										animated:			true,
+										fadeIn:				$index === 0,
+										fadeInWait1:	$index === 1,
+										fadeInWait2:	$index === 2,
+										fadeInWait3:	$index === 3,
+										fadeInWait4:	$index === 4,
+										fadeInWait5:	$index >= 5}"
+				 ng-repeat="talk in talks | filter:filter | filter:filterBy">
+			<div class="word_holder">
+				<span ng-class="{r_bold:			true,
+												 large:				true,
+												 shady:				true,
+												 talk_title:	true,
+												 dark_blue:		display === 'bigpicture',
+												 light_blue:	display === 'whattodo',
+												 orange:			display === 'futureofea'}">{{talk.title}}</span>
+				<div class="speaker_holder">
+					<span ng-repeat="speaker in talk.speakers" class="speaker r_light tiny white">{{speaker}}</span>
+				</div>
+				<span class="r_med smedium white">{{talk.blurb}}</span>
+			</div>
+			<img class="small_vid" src="img/clickToLoad.png" ng-hide="showVid===false" ng-click="showVid=false">
+			<iframe class="small_vid" width="400" height="226" frameborder="0" allowfullscreen ng-src="{{talk.videoURL | trustURL}}" ng-show="showVid===false"></iframe>
+		</div>
 	</div>
 </section>
